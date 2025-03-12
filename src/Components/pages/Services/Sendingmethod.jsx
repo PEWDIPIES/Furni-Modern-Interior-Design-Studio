@@ -54,7 +54,7 @@ const Sendingmethod = () => {
                       <div className="icon">
                         <img
                           src={elem.img}
-                          alt={elem.tittle}
+                          alt='productimg'
                           className="img-fluid"  // Corrected className
                         />
                       </div>

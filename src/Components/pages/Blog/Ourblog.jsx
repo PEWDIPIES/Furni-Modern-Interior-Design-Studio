@@ -48,7 +48,7 @@ const Ourblog = () => {
                       <a href="#" className="post-thumbnail">
                         <img
                           src={elem.img}
-                          alt={elem.tittle}
+                          alt='ourblogimages'
                           className="img-fluid" // Corrected className
                         />
                       </a>

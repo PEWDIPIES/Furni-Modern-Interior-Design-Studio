@@ -11,6 +11,8 @@ import cross4 from "/src/assets/images/cross.svg";
 import produc5 from '/src/assets/images/product-1.png'
 import cross5 from '/src/assets/images/cross.svg'
 import produc6 from '/src/assets/images/product-2.png'
+import produc7 from '/src/assets/images/product-2.png'
+
 
 
 
@@ -55,7 +57,7 @@ const Productsection = () => {
             <div className="col-12 col-md-4 col-lg-3 mb-5">
               <a className="product-item" href="#">
                 <img
-                  src="/src/assets/images/product-2.png"
+                  src={produc7}
                   className="img-fluid product-thumbnail"
                   alt="Product 2"
                 />
