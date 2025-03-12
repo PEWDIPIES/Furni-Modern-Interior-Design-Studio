@@ -16,11 +16,9 @@ const Material = () => {
                 velit. Aliquam vulputate velit imperdiet dolor tempor tristique.{" "}
               </p>
               <p>
-             <Link to='/Shop'>
-			 <a className="btn">
-                  Explore
-                </a>
-			 </Link> 
+                <Link to="/Shop">
+                  <a className="btn">Explore</a>
+                </Link>
               </p>
             </div>
 
@@ -28,7 +26,7 @@ const Material = () => {
               <a className="product-item" href="cart.html">
                 <img
                   src="/src/assets/images/product-1.png"
-                  class="img-fluid product-thumbnail"
+                  class="img-fluid product-thumbnail" alt="product1"
                 />
                 <h3 claclassNames="product-title">Nordic Chair</h3>
                 <strong className="product-price">$50.00</strong>
@@ -37,6 +35,7 @@ const Material = () => {
                   <img
                     src="/src/assets/images/cross.svg"
                     className="img-fluid"
+                    alt="Cross Icon"
                   />
                 </span>
               </a>
@@ -47,6 +46,7 @@ const Material = () => {
                 <img
                   src="/src/assets/images/product-2.png"
                   className="img-fluid product-thumbnail"
+                  alt="Product 2"
                 />
                 <h3 className="product-title">Kruzo Aero Chair</h3>
                 <strong className="product-price">$78.00</strong>
@@ -54,7 +54,7 @@ const Material = () => {
                 <span className="icon-cross">
                   <img
                     src="/src/assets/images/cross.svg"
-                    className="img-fluid"
+                    className="img-fluid"      alt="cross"
                   />
                 </span>
               </a>
@@ -65,6 +65,7 @@ const Material = () => {
                 <img
                   src="/src/assets/images/product-3.png"
                   className="img-fluid product-thumbnail"
+                  alt="Product 3"   
                 />
                 <h3 className="product-title">Ergonomic Chair</h3>
                 <strong className="product-price">$43.00</strong>
@@ -73,6 +74,7 @@ const Material = () => {
                   <img
                     src="/src/assets/images/cross.svg"
                     className="img-fluid"
+                    alt="Cross Icon"
                   />
                 </span>
               </a>

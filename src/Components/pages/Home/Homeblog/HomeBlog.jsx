@@ -31,7 +31,9 @@ const HomeBlog = () => {
 
 						<div className="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
 							<div className="post-entry">
-								<a href="#" className="post-thumbnail"><img src="src/assets/images/post-2.jpg" alt="Image" class="img-fluid"/></a>
+								<a href="#" className="post-thumbnail">
+									<img src="src/assets/images/post-2.jpg" alt="Image" class="img-fluid"/>
+									</a>
 								<div className="post-content-entry">
 									<h3><a href="#">How To Keep Your Furniture Clean</a></h3>
 									<div className="meta">
@@ -43,7 +45,9 @@ const HomeBlog = () => {
 
 						<div className="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
 							<div className="post-entry">
-								<a href="#" className="post-thumbnail"><img src="src/assets/images/post-3.jpg" alt="Image" class="img-fluid"/></a>
+								<a href="#" className="post-thumbnail">
+									<img src="src/assets/images/post-3.jpg" alt="Image" class="img-fluid"/>
+									</a>
 								<div className="post-content-entry">
 									<h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
 									<div className="meta">
