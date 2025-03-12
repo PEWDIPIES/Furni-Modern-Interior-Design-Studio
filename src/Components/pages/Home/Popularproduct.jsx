@@ -1,5 +1,7 @@
 import React from 'react'
-
+import product1 from '/src/assets/images/product-1.png'
+import product2 from '/src/assets/images/product-1.png'
+import product3 from '/src/assets/images/product-1.png'
 const Popularproduct = () => {
   return (
     <div>
@@ -10,7 +12,7 @@ const Popularproduct = () => {
 					<div className="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
 						<div className="product-item-sm d-flex">
 							<div className="thumbnail">
-								<img src="/src/assets/images/product-1.png" alt="Image" className="img-fluid"/>
+								<img src={product1} alt="Image" className="img-fluid"/>
 							</div>
 							<div className="pt-3">
 								<h3>Nordic Chair</h3>
@@ -23,7 +25,7 @@ const Popularproduct = () => {
 					<div className="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
 						<div className="product-item-sm d-flex">
 							<div className="thumbnail">
-								<img src="/src/assets/images/product-2.png" alt="Image" className="img-fluid"/>
+								<img src={product2} alt="Image" className="img-fluid"/>
 							</div>
 							<div className="pt-3">
 								<h3>Kruzo Aero Chair</h3>
@@ -36,7 +38,7 @@ const Popularproduct = () => {
 					<div className="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
 						<div className="product-item-sm d-flex">
 							<div className="thumbnail">
-								<img src="/src/assets/images/product-3.png" alt="Image" className="img-fluid"/>
+								<img src={product3} alt="Image" className="img-fluid"/>
 							</div>
 							<div className="pt-3">
 								<h3>Ergonomic Chair</h3>

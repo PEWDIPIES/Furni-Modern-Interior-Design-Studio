@@ -1,5 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import product1 from "/src/assets/images/product-1.png";
+import cross from "/src/assets/images/cross.svg";
+import product2 from "/src/assets/images/product-2.png";
+import product3 from "/src/assets/images/product-3.png";
+import cross1 from "/src/assets/images/cross.svg";
 
 const Material = () => {
   return (
@@ -25,18 +30,15 @@ const Material = () => {
             <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
               <a className="product-item" href="cart.html">
                 <img
-                  src="/src/assets/images/product-1.png"
-                  class="img-fluid product-thumbnail" alt="product1"
+                  src={product1}
+                  class="img-fluid product-thumbnail"
+                  alt="product1"
                 />
                 <h3 claclassNames="product-title">Nordic Chair</h3>
                 <strong className="product-price">$50.00</strong>
 
                 <span className="icon-cross">
-                  <img
-                    src="/src/assets/images/cross.svg"
-                    className="img-fluid"
-                    alt="Cross Icon"
-                  />
+                  <img src={cross} className="img-fluid" alt="Cross Icon" />
                 </span>
               </a>
             </div>
@@ -44,7 +46,7 @@ const Material = () => {
             <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
               <a className="product-item" href="cart.html">
                 <img
-                  src="/src/assets/images/product-2.png"
+                  src={product2}
                   className="img-fluid product-thumbnail"
                   alt="Product 2"
                 />
@@ -54,7 +56,8 @@ const Material = () => {
                 <span className="icon-cross">
                   <img
                     src="/src/assets/images/cross.svg"
-                    className="img-fluid"      alt="cross"
+                    className="img-fluid"
+                    alt="cross"
                   />
                 </span>
               </a>
@@ -63,19 +66,15 @@ const Material = () => {
             <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
               <a className="product-item" href="cart.html">
                 <img
-                  src="/src/assets/images/product-3.png"
+                  src={product3}
                   className="img-fluid product-thumbnail"
-                  alt="Product 3"   
+                  alt="Product 3"
                 />
                 <h3 className="product-title">Ergonomic Chair</h3>
                 <strong className="product-price">$43.00</strong>
 
                 <span className="icon-cross">
-                  <img
-                    src="/src/assets/images/cross.svg"
-                    className="img-fluid"
-                    alt="Cross Icon"
-                  />
+                  <img src={cross1} className="img-fluid" alt="Cross Icon" />
                 </span>
               </a>
             </div>

@@ -1,4 +1,18 @@
 import React from "react";
+import product3 from "/src/assets/images/product-3.png";
+import cross from "/src/assets/images/cross.svg";
+import product1 from "/src/assets/images/product-1.png";
+import cross1 from "/src/assets/images/cross.svg";
+import cross2 from "/src/assets/images/cross.svg";
+import products3 from "/src/assets/images/product-3.png";
+import cross3 from '/src/assets/images/cross.svg'
+import produc4 from '/src/assets/images/product-3.png'
+import cross4 from "/src/assets/images/cross.svg";
+import produc5 from '/src/assets/images/product-1.png'
+import cross5 from '/src/assets/images/cross.svg'
+import produc6 from '/src/assets/images/product-2.png'
+
+
 
 const Productsection = () => {
   return (
@@ -9,7 +23,7 @@ const Productsection = () => {
             <div className="col-12 col-md-4 col-lg-3 mb-5">
               <a className="product-item" href="#">
                 <img
-                  src="/src/assets/images/product-3.png"
+                  src={product3}
                   class="img-fluid product-thumbnail"
                   alt="Product 3"
                 />
@@ -17,11 +31,7 @@ const Productsection = () => {
                 <strong className="product-price">$50.00</strong>
 
                 <span className="icon-cross">
-                  <img
-                    src="/src/assets/images/cross.svg"
-                    alt="Cross Icon"
-                    class="img-fluid"
-                  />
+                  <img src={cross} alt="Cross Icon" class="img-fluid" />
                 </span>
               </a>
             </div>
@@ -29,7 +39,7 @@ const Productsection = () => {
             <div className="col-12 col-md-4 col-lg-3 mb-5">
               <a className="product-item" href="#">
                 <img
-                  src="/src/assets/images/product-1.png"
+                  src={product1}
                   class="img-fluid product-thumbnail"
                   alt="Product 1"
                 />
@@ -37,11 +47,7 @@ const Productsection = () => {
                 <strong className="product-price">$50.00</strong>
 
                 <span className="icon-cross">
-                  <img
-                    src="/src/assets/images/cross.svg"
-                    alt="Cross Icon"
-                    class="img-fluid"
-                  />
+                  <img src={cross1} alt="Cross Icon" class="img-fluid" />
                 </span>
               </a>
             </div>
@@ -57,9 +63,25 @@ const Productsection = () => {
                 <strong className="product-price">$78.00</strong>
 
                 <span className="icon-cross">
+                  <img src={cross2} alt="Cross Icon" class="img-fluid" />
+                </span>
+              </a>
+            </div>
+
+            <div className="col-12 col-md-4 col-lg-3 mb-5">
+              <a className="product-item" href="#">
+                <img
+                  src={products3}
+                  class="img-fluid product-thumbnail"
+                  alt="Product 3"
+                />
+                <h3 className="product-title">Ergonomic Chair</h3>
+                <strong className="product-price">$43.00</strong>
+
+                <span className="icon-cross">
                   <img
-                    src="/src/assets/images/cross.svg"
-                    alt="Cross Icon"
+                  src={cross3}
+                  alt="Cross Icon"
                     class="img-fluid"
                   />
                 </span>
@@ -69,33 +91,18 @@ const Productsection = () => {
             <div className="col-12 col-md-4 col-lg-3 mb-5">
               <a className="product-item" href="#">
                 <img
-                  src="/src/assets/images/product-3.png"
-                  class="img-fluid product-thumbnail"   alt="Product 3"
-
-                />
-                <h3 className="product-title">Ergonomic Chair</h3>
-                <strong className="product-price">$43.00</strong>
-
-                <span className="icon-cross">
-                  <img src="/src/assets/images/cross.svg"   alt="Cross Icon"
- class="img-fluid" />
-                </span>
-              </a>
-            </div>
-
-            <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
-                <img
-                  src="/src/assets/images/product-3.png"
-                  class="img-fluid product-thumbnail" alt="product3"
+                  src={produc4}
+                  class="img-fluid product-thumbnail"
+                  alt="product3"
                 />
                 <h3 className="product-title">Nordic Chair</h3>
                 <strong className="product-price">$50.00</strong>
 
                 <span className="icon-cross">
                   <img
-                    src="/src/assets/images/cross.svg"
-                    className="img-fluid" alt="crossimg"
+                  src={cross4}
+                  className="img-fluid"
+                    alt="crossimg"
                   />
                 </span>
               </a>
@@ -104,16 +111,17 @@ const Productsection = () => {
             <div className="col-12 col-md-4 col-lg-3 mb-5">
               <a className="product-item" href="#">
                 <img
-                  src="/src/assets/images/product-1.png"
-                  class="img-fluid product-thumbnail" alt="product1"
+                  src={produc5}
+                  class="img-fluid product-thumbnail"
+                  alt="product1"
                 />
                 <h3 className="product-title">Nordic Chair</h3>
                 <strong className="product-price">$50.00</strong>
 
                 <span className="icon-cross">
                   <img
-                    src="/src/assets/images/cross.svg"
-                    className="img-fluid"
+                  src={cross5}
+                  className="img-fluid"
                   />
                 </span>
               </a>
@@ -121,14 +129,19 @@ const Productsection = () => {
             <div className="col-12 col-md-4 col-lg-3 mb-5">
               <a className="product-item" href="#">
                 <img
-                  src="/src/assets/images/product-2.png"
-                  className="img-fluid product-thumbnail" alt="proudct2"
+                  src={produc6}
+                  className="img-fluid product-thumbnail"
+                  alt="proudct2"
                 />
                 <h3 className="product-title">Kruzo Aero Chair</h3>
                 <strong className="product-price">$78.00</strong>
 
                 <span className="icon-cross">
-                  <img src="/src/assets/images/cross.svg" alt="crossimg" class="img-fluid" />
+                  <img
+                       src={cross3}
+                    alt="crossimg"
+                    class="img-fluid"
+                  />
                 </span>
               </a>
             </div>
@@ -136,14 +149,19 @@ const Productsection = () => {
             <div className="col-12 col-md-4 col-lg-3 mb-5">
               <a className="product-item" href="#">
                 <img
-                  src="/src/assets/images/product-3.png"
-                  class="img-fluid product-thumbnail"  alt="product3" 
+                       src={product3}
+                       class="img-fluid product-thumbnail"
+                  alt="product3"
                 />
                 <h3 className="product-title">Ergonomic Chair</h3>
-                <strong className="product-price">$43.00</strong>
+                <strong className="product-price">$46.00</strong>
 
                 <span className="icon-cross">
-                  <img src="/src/assets/images/cross.svg" alt="crossimg" class="img-fluid" />
+                  <img
+                       src={cross1}
+                       alt="crossimg"
+                    class="img-fluid"
+                  />
                 </span>
               </a>
             </div>

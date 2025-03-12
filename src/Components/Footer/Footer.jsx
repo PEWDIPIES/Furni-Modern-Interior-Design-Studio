@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { LuSend } from "react-icons/lu";
 import { Link } from "react-router-dom";
+import sofaimg from '/src/assets/images/sofa.png'
+import envelopeimg from '/src/assets/images/envelope-outline.svg'
 
 const Footer = () => {
   const [firstname, setfirstname] = useState("");
@@ -18,7 +20,7 @@ const Footer = () => {
     <footer className="footer-section">
       <div className="container relative">
         <div className="sofa-img">
-          <img src="/src/assets/images/sofa.png" alt="Sofa" className="img-fluid" />
+          <img src={sofaimg} alt="Sofa" className="img-fluid" />
         </div>
 
         <div className="row">
@@ -27,7 +29,7 @@ const Footer = () => {
               <h3 className="d-flex align-items-center">
                 <span className="me-1">
                   <img
-                    src="/src/assets/images/envelope-outline.svg"
+                     src={envelopeimg}
                     alt="Envelope"
                     className="img-fluid"
                   />
