@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { LuSend } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [firstname, setfirstname] = useState("");
@@ -66,9 +67,12 @@ const Footer = () => {
         <div className="row g-5 mb-5">
           <div className="col-lg-4">
             <div className="mb-4 footer-logo-wrap">
-              <a href="#" className="footer-logo">
+              <Link to='/'>
+              <a  className="footer-logo">
                 Furni<span>.</span>
               </a>
+              </Link>
+            
             </div>
             <p className="mb-4">
               Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada.
@@ -103,16 +107,20 @@ const Footer = () => {
               <div className="col-6 col-sm-6 col-md-3">
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#">About us</a>
+                 <Link to='/Aboutus'>
+                 <a>About us</a></Link>   
                   </li>
                   <li>
-                    <a href="#">Services</a>
+                 <Link to='/Services'>
+                 <a>Services</a></Link>   
                   </li>
                   <li>
-                    <a href="#">Blog</a>
+                 <Link to='/Blog'>
+                 <a>Blog</a></Link>   
                   </li>
                   <li>
-                    <a href="#">Contact us</a>
+                 <Link to='/Contact'>
+                 <a>Contact us</a></Link>   
                   </li>
                 </ul>
               </div>
@@ -165,28 +173,6 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-top copyright">
-          <div className="row pt-4">
-            <div className="col-lg-6">
-              <p className="mb-2 text-center text-lg-start">
-                Copyright &copy; {new Date().getFullYear()}. All Rights Reserved. — Designed with love by{" "}
-                <a href="https://untree.co">Untree.co</a> Distributed By{" "}
-                <a href="https://themewagon.com">ThemeWagon</a>
-              </p>
-            </div>
-
-            <div className="col-lg-6 text-center text-lg-end">
-              <ul className="list-unstyled d-inline-flex ms-auto">
-                <li className="me-4">
-                  <a href="#">Terms &amp; Conditions</a>
-                </li>
-                <li>
-                  <a href="#">Privacy Policy</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
     </footer>
   );
